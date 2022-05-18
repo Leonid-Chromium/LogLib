@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "LogLib": {
+      "commandName": "Project"
+    },
+    "newProfile1": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\Leonid\\source\\repos\\TestLogLib\\bin\\Debug\\net5.0-windows\\TestLogLib.exe"
+    }
+  }
+}

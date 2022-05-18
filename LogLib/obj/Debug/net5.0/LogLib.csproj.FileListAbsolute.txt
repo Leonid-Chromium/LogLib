@@ -1,0 +1,12 @@
+D:\File\GitHub\LogLib\LogLib\bin\Debug\net5.0\LogLib.deps.json
+D:\File\GitHub\LogLib\LogLib\bin\Debug\net5.0\LogLib.dll
+D:\File\GitHub\LogLib\LogLib\bin\Debug\net5.0\ref\LogLib.dll
+D:\File\GitHub\LogLib\LogLib\bin\Debug\net5.0\LogLib.pdb
+D:\File\GitHub\LogLib\LogLib\obj\Debug\net5.0\LogLib.csproj.AssemblyReference.cache
+D:\File\GitHub\LogLib\LogLib\obj\Debug\net5.0\LogLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\File\GitHub\LogLib\LogLib\obj\Debug\net5.0\LogLib.AssemblyInfoInputs.cache
+D:\File\GitHub\LogLib\LogLib\obj\Debug\net5.0\LogLib.AssemblyInfo.cs
+D:\File\GitHub\LogLib\LogLib\obj\Debug\net5.0\LogLib.csproj.CoreCompileInputs.cache
+D:\File\GitHub\LogLib\LogLib\obj\Debug\net5.0\LogLib.dll
+D:\File\GitHub\LogLib\LogLib\obj\Debug\net5.0\ref\LogLib.dll
+D:\File\GitHub\LogLib\LogLib\obj\Debug\net5.0\LogLib.pdb
