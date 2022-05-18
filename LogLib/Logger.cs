@@ -15,7 +15,7 @@ namespace LogLib
         public string version { get; set; } = "";
         public string user { get; set; } = "";
 
-        public string logPath { get; set; }
+        public string logPath { get; set; } = "";
 
         //public bool _flag = false;
         //public bool flag
@@ -63,10 +63,11 @@ namespace LogLib
             loggerTask = new Task(() => LogListChecker());
 		}
 
-        public Logger(string inVersion, string inUser)
+        public Logger(string inVersion, string inUser, string inLogPath)
 		{
             version = inVersion;
             user = inUser;
+            logPath = inLogPath;
 
             ////Готовим поток для записывания логов в файл
             //loggerThread = new Thread(() => LogListChecker());
@@ -80,6 +81,9 @@ namespace LogLib
             while (logs.Count > 0)
 			{
                 Trace.WriteLine(Log.LogString(logs[0]));
+                JSON.Serializer(logs[0], logPath, out string exceptionSerializer);
+                if (!String.IsNullOrEmpty(exceptionSerializer))
+                    Trace.WriteLine(exceptionSerializer);
                 logs.RemoveAt(0);
                 Task.Delay(500).Wait();
 			}
